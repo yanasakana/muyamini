@@ -1,0 +1,65 @@
+{
+	"credit": "Made in Blockbench by @yanasakanadev || やなぎ#2957",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "models/item/hype_glasses"
+	},
+	"elements": [
+		{
+			"from": [1.5, 0, 5.5],
+			"to": [14.5, 12, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2.5, 0, 5.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 6.5, 6], "texture": "#1"},
+				"east": {"uv": [6.5, 0, 9, 6], "texture": "#1"},
+				"west": {"uv": [6.5, 6, 9, 12], "texture": "#1"},
+				"up": {"uv": [6.5, 8.5, 0, 6], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 106.25, 0],
+			"translation": [0, 3.75, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 106.25, 0],
+			"translation": [0, 3.75, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [-0.5, 1.25, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"head": {
+			"translation": [0, 3, -4.5],
+			"scale": [1.15, 1.15, 1.15]
+		},
+		"fixed": {
+			"translation": [0, 1.75, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "root",
+			"origin": [8, 8, 8],
+			"children": [0]
+		}
+	]
+}

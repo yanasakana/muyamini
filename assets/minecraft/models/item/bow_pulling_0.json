@@ -1,0 +1,50 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "item/bow_pulling_0"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "item/halo/assault_rifle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "item/halo/mauler"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "item/halo/needle_rifle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "item/halo/needler"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "item/halo/plasma_rifle"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6
+            },
+            "model": "item/halo/spiker"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 992
+            },
+            "model": "item/halo/XXXX"
+        }
+    ]
+}

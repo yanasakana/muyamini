@@ -1,0 +1,67 @@
+{
+	"credit": "Made in Blockbench by @yanasakanadev || やなぎ#2957",
+	"parent": "melon_umbrella",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "models/item/melon_umbrella",
+		"particle": "models/item/melon_umbrella"
+	},
+	"elements": [
+		{
+			"from": [7.5, 0, 7.5],
+			"to": [8.5, 20, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.5, 0, 0.5]},
+			"faces": {
+				"north": {"uv": [8, 0, 8.5, 10], "texture": "#0"},
+				"east": {"uv": [8.5, 0, 9, 10], "texture": "#0"},
+				"south": {"uv": [9, 0, 9.5, 10], "texture": "#0"},
+				"west": {"uv": [9.5, 0, 10, 10], "texture": "#0"},
+				"up": {"uv": [10.5, 0.5, 10, 0], "texture": "#0"},
+				"down": {"uv": [10.5, 0.5, 10, 1], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 19, 0],
+			"to": [16, 19, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-5, -2, -5]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 0], "texture": "#0"},
+				"east": {"uv": [0, 0, 8, 0], "texture": "#0"},
+				"south": {"uv": [0, 0, 8, 0], "texture": "#0"},
+				"west": {"uv": [0, 0, 8, 0], "texture": "#0"},
+				"up": {"uv": [8, 8, 0, 0], "texture": "#0"},
+				"down": {"uv": [8, 8, 0, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [69, 0, 0],
+			"translation": [0, 1.5, 6.75],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"ground": {
+			"translation": [0, 5.25, 0]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, -2, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"rotation": [7.75, 0, 0],
+			"translation": [0, -4.75, 7],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"translation": [0, -3.25, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "root",
+			"origin": [8, 8, 8],
+			"children": [0, 1]
+		}
+	]
+}

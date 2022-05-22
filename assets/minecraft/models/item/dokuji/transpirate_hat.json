@@ -3,7 +3,7 @@
 	"parent": "pirate_hat",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "Textures/transpirate_hat"
+		"1": "models/transpirate_hat"
 	},
 	"elements": [
 		{

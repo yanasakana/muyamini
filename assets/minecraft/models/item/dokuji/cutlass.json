@@ -3,7 +3,7 @@
 	"parent": "cutlass",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "textures/models/cutlass"
+		"1": "models/cutlass"
 	},
 	"elements": [
 		{

@@ -8,13 +8,13 @@
 			"predicate": {
 				"custom_model_data": 1
 			},
-			"model": "item/dokuji/cutlass"
+			"model": "item/sumiyumi/cutlass"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 2
 			},
-			"model": "item/dokuji/fork"
+			"model": "item/sumiyumi/fork"
 		}
 	]
 }
